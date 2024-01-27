@@ -8,7 +8,7 @@ const Index = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://biblioteca-api-lt9e.onrender.com/api/ping');
+        const response = await fetch('https://biblioteca-api-render.onrender.com/users');
         if (!response.ok) {
           throw new Error('Error en la solicitud a la API');
         }

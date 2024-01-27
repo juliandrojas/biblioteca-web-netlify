@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Index from './pages/Index';
+import Form from './pages/Form';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Index />
+    element: <Form />
   }
 ]);
 
